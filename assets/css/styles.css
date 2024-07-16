@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+#background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    animation: fadeIn 0.5s ease-in-out forwards; 
+    color: whitesmoke;
+    background-color:black;
+    
+}
+
+nav {
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    padding-top: 2px;  
+}
+.header{
+  position:fixed;
+  padding-left: 60px;
+  padding-right: 0px;
+  justify-content: space-between;
+  display: flex;
+  color:blanchedalmond;
+  position: relative;
+  z-index: 1000;
+  
+}
+.header h1{
+    
+    font-style: bold;
+    font-size: 30px;
+    cursor: pointer;
+    color: whitesmoke;
+    margin-left: 10px;
+    font-weight: 300;
+    
+}
+.header img  {
+    height: 70px;
+    margin-left: 1px;
+    margin-top: 15px;
+}
+.header .header-right {
+   justify-content: space-between;
+   display: flex;
+   width: 40%;
+   padding: 0px 20px;
+   list-style-type: none;
+   float: right;
+}
+nav li {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: right;
+}
+nav li a{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 20px;
+  cursor:pointer;
+  font-size: 18px;
+  text-align: center;
+  z-index: 1;
+  transition: all 0.3s ease;
+  font-weight: 125; 
+  
+}
+.header-right button{
+   
+    font-size: 16px;
+    padding: 7px 30px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+.body
+{
+    
+    font-weight: 400;
+}
+.body .line1{
+    margin-top: 200px;
+    margin-left: 70px;
+    font-size: 60px;
+    font-weight: 300;
+}
+.body .line2{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.body .line3
+{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 60px;
+    font-weight: 200;
+    min-height: 100px;
+    overflow: hidden; 
+}
+
+.getstarted{
+    margin-top: 170px;
+    color: white;
+    padding: 12px;
+    border-top-right-radius: 160px;
+    background-color: transparent;
+    
+    
+}
+.getstarted .heading{
+    font-weight: 500;
+    margin-top: 70px;
+    margin-left: 370px;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+.getstarted .sub-heading p{
+    font-weight: 350;
+    margin-top: 10px;
+    margin-left: 320px;
+    font-size: larger;
+    
+    
+
+}
+.getstarted .options{
+    display: flex;
+    margin-top: 60px;
+    margin-right: 20px;
+    background-color: transparent;
+   
+  
+   
+  
+
+   
+}
+.getstarted .option3 img,
+.getstarted .option2 img,
+.getstarted .option1 img{
+    margin-top: 5px;
+    border-radius: 30px;
+    width: 100%;
+    opacity: 79%;
+    max-height: 89%;
+    box-shadow: 0 0 7px gray;
+
+}
+
+.getstarted .option1,
+.getstarted .option3,
+.getstarted .option2
+{
+    color: #fff;
+    max-width: 30%;
+    margin-left: 70px;
+    border-radius: 18px;
+    margin-top: 5px;
+    
+    
+   
+}
+.getstarted .option1 .overlay {
+    position: absolute;
+    margin-top: -135px;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color as needed */
+}
+
+.getstarted .option1 .overlay  h1{
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-top: 20px;
+    
+}
+.getstarted .option1 .overlay p{
+    text-align:start;
+    padding-left: 0px;
+}
+
+.getstarted .option1 .overlay button{
+    background-color:white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left:50px;
+    border: 0;
+    cursor:pointer;
+}
+
+.getstarted .option2 .overlay {
+    position: absolute;
+    margin-top: -135px;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color as needed */
+}
+.getstarted .option2 .overlay h1{
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 74px;
+    padding-top: 20px;
+}
+.getstarted .option2 .overlay p{
+    text-align:start;
+}
+
+.getstarted .option2 .overlay button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 50px;
+    border: 0;
+    cursor:pointer;
+}
+
+
+.getstarted .option3 .overlay {
+    position: absolute;
+    margin-top: -135px;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color as needed */
+    
+   
+}
+
+.getstarted .option3 .overlay h1{
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.getstarted .option3 .overlay p{
+    margin-left: 0px;
+}
+.getstarted .option3 .overlay button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 18px;
+    border: 0;
+    cursor:pointer;
+
+}
+#background-4 {
+    max-width: 100%;
+}
+.questions{
+    background-color: aliceblue;
+    color: black;
+    padding-right: 93px;
+    background: transparent;
+}
+.questions h1{
+    padding-top: 150px;
+    border-top-right-radius: 160px;
+    
+}
+.questions img{
+    margin-left: 170px;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    box-shadow: 0px 0px 20px gray;
+}
+
+
+.questions {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 100px;
+}
+
+.questions .text-overlay {
+    position: absolute;
+    top: 45%; /* Adjust as needed */
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color as needed */
+}
+
+.questions .text-overlay h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.questions .text-overlay p {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#background-1 {
+    max-width: 100%;
+}
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: left;
+    margin-left:0%;
+    position: absolute; /* Position the footer */
+    width: 99%;
+}
+
+
+footer .top{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+footer .top img{
+    height: 70px;
+}
+footer .top h1{
+    font-weight: 400;
+    font-size: 27px;
+}
+footer .right-top {
+    margin-left: 650px;
+    
+}
+footer .right-top h3{
+    font-weight: 400;
+}
+footer .right-top input[type="email"]{
+    margin-top: px;
+    border-radius: 30px;
+    
+    padding: 7px;
+    color: white;
+    background-color: black;
+    border: 0.01;
+    border-color: white;
+}
+
+footer .right-top button{
+    border:0;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    width:140px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0px 13px gray;
+    margin-left: 20px;
+    cursor: pointer;
+}
+footer .container p{
+    margin-top: 3%;
+    margin-left: 50px;
+}
+/* Styles for the glide-in effect */
