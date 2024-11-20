@@ -33,32 +33,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     type();
 });
-document.addEventListener("DOMContentLoaded", function() {
-    var glidInSection = document.querySelector(".glid-in");
-
-    function handleScroll() {
-        var glidInPosition = glidInSection.getBoundingClientRect().top;
-        var screenPosition = window.innerHeight / 1.3;
-
-        if (glidInPosition < screenPosition) {
-            glidInSection.classList.add("visible");
-        }
-    }
-
-    window.addEventListener("scroll", handleScroll);
+document.getElementById("start_organizing").addEventListener("click", function() {
+    
+    window.location.href = "E:/BiomeShare/main/signup_organizer.html"; 
+});
+document.getElementById("start_investing").addEventListener("click", function() {
+    
+    window.location.href = "E:/BiomeShare/main/signup_buyer.html"; 
 });
 
-// Listen for scroll events
-window.addEventListener('scroll', handleScroll);
 
-document.getElementById("start-organizing").addEventListener("click", function() {
-    window.location.href = "/signup-organizer.html"; // Correct the URL here
-});
-
-document.getElementById("start-investing").addEventListener("click", function() {
-    window.location.href = "/signup-user.html"; // Correct the URL here
-});
-
-document.getElementById("login").addEventListener("click", function() {
-    window.location.href = "/login-user.html"; // Correct the URL here
-});

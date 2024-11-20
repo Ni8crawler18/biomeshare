@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomeshare - Create Project</title>
+    <link rel="stylesheet" href="E:\BiomeShare\css\createProject.css">
+</head>
+<body>
+    <img id="background" src="E:\BiomeShare\assets\background.jpg" alt="background_image">
+    
+    <div class="logo">
+        <img src="E:\BiomeShare\assets\biomeshare_logo.png" alt="logo">
+        <h1>Biomeshare</h1>
+    </div>
+    <div class="container">
+        <form id="projectForm" method="post">
+            <!-- Step 1: Project title, Summary Description, Project Proof -->
+            <div id="step1" class="step">
+                <h2>Step 1: Project Information</h2>
+                <div class="form-group">
+                    <input type="text" id="projectTitle" name="projectTitle" placeholder="Project Title" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="adminName" name="adminName" placeholder="Admin Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="adminEmail" name="adminEmail" placeholder="Admin Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="summaryDescription" name="summaryDescription" placeholder="Summary Description" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="alignedOrganization" name="alignedOrganization" placeholder="Aligned Organization" required>
+                </div>
+                <div class="form-group">
+                    <input type="file" id="projectProof" name="projectProof" accept=".pdf" required>
+                </div>
+                <button id="nextStep">Next</button>
+            </div>
+
+            <!-- Step 2: Project Impact -->
+            <div id="step2" class="step">
+                <h2>Step 2: Project Impact</h2>
+                <div class="form-group">
+                    <input type="text" id="benefits" name="benefits" placeholder="How it benefits to broader community" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="collateral" name="collateral" placeholder="Collateral to stakeholder" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="latitude" name="latitude" placeholder="Latitude" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="longitude" name="longitude" placeholder="Longitude" required>
+                </div>
+                <div class="form-group">
+                    
+                    <input type="file" id="projectSite" name="projectSite" accept="image/*" required>
+                </div>
+                
+                <div class="form-group">
+                    <input type="text" id="alignment" name="alignment" placeholder="Alignment to SDGs" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="area" name="area" placeholder="Project Area in Sq.ft" required>
+                </div>
+                <button id="prevStep">Previous</button>
+                <button id="nextStep">Next</button>
+            </div>
+
+            <!-- Step 3: Project Duration & Funding -->
+            <div id="step3" class="step">
+                <h2>Step 3: Project Duration & Funding</h2>
+                <div class="form-group">
+                    <input type="date" id="startingDate" name="startingDate" placeholder="Project Starting Date" required>
+                </div>   
+                <div class="form-group">
+                    <input type="date" id="endingDate" name="endingDate" placeholder="Project Ending Date" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="budget" name="budget" placeholder="Budget Value" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="split" name="split" placeholder="Required Fund Percentage" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="stakeholders" name="stakeholders" placeholder="No Of stakeholders" required>
+                </div>
+                <button id="prevStep">Previous</button>
+                <button id="submitForm">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="E:\BiomeShare\script\createProject.js"></script>
+</body>
+</html>

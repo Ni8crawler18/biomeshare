@@ -9,9 +9,6 @@
     height: auto;
     z-index: -1000;
 }
-html {
-    scroll-behavior: smooth;
-}
 body{
     font-family: "Poppins", sans-serif;
     animation: fadeIn 0.5s ease-in-out forwards; 
@@ -29,14 +26,13 @@ nav {
     padding-top: 2px;  
 }
 .header{
-  position:fixed;
   padding-left: 60px;
   padding-right: 0px;
   justify-content: space-between;
   display: flex;
   color:blanchedalmond;
   position: relative;
-  z-index: 1000;
+  z-index: 1;
   
 }
 .header h1{
@@ -93,7 +89,7 @@ nav li a{
     font-weight: 400;
 }
 .body .line1{
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: 70px;
     font-size: 60px;
     font-weight: 300;
@@ -116,160 +112,118 @@ nav li a{
 
 .getstarted{
     margin-top: 170px;
-    color: white;
+    background-color: azure;
+    color: black;
     padding: 12px;
     border-top-right-radius: 160px;
-    background-color: transparent;
     
     
 }
 .getstarted .heading{
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 70px;
-    margin-left: 370px;
-    font-size: 55px;
-    margin-bottom: 30px;
+    margin-left: 70px;
 }
-.getstarted .sub-heading p{
+.getstarted p{
     font-weight: 350;
     margin-top: 10px;
-    margin-left: 320px;
-    font-size: larger;
-    
+    margin-left: 70px;
     
 
 }
-.getstarted .options{
+.options{
     display: flex;
     margin-top: 60px;
     margin-right: 20px;
-    background-color: transparent;
-   
-  
-   
-  
 
    
 }
-.getstarted .option3 img,
-.getstarted .option2 img,
-.getstarted .option1 img{
-    margin-top: 5px;
-    border-radius: 30px;
-    width: 100%;
-    opacity: 79%;
-    max-height: 89%;
-    box-shadow: 0 0 7px gray;
-
-}
-
-.getstarted .option1,
-.getstarted .option3,
-.getstarted .option2
+.getstarted .option1
 {
     color: #fff;
     max-width: 30%;
     margin-left: 70px;
     border-radius: 18px;
-    margin-top: 5px;
-    
-    
-   
+    background-image: url("E:/BiomeShare/assets/background_2.jpg");
 }
-.getstarted .option1 .overlay {
-    position: absolute;
-    margin-top: -135px;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    color: white; /* Adjust text color as needed */
-}
-
-.getstarted .option1 .overlay  h1{
+.getstarted .option1 h1{
     font-weight: 500;
     font-size: 18px;
     padding-left: 25px;
     padding-top: 20px;
-    
 }
-.getstarted .option1 .overlay p{
+.getstarted .option1 p{
     text-align:start;
-    padding-left: 0px;
 }
 
-.getstarted .option1 .overlay button{
+.getstarted .option1 button{
     background-color:white;
     border-radius: 30px;
     padding: 10px;
-    margin-left:50px;
+    margin-left: 140px;
     border: 0;
     cursor:pointer;
 }
-
-.getstarted .option2 .overlay {
-    position: absolute;
-    margin-top: -135px;
-    left: 52%;
-    transform: translate(-50%, -50%);
-    color: white; /* Adjust text color as needed */
+.getstarted .option2
+{
+    color: #fff;
+    background-color: aquamarine;
+    max-width: 30%;
+    margin-left: 30px;
+    border-radius: 18px;
+    background-image: url("E:/BiomeShare/assets/background_3.jpg");
 }
-.getstarted .option2 .overlay h1{
+.getstarted .option2 h1{
     font-weight: 500;
     font-size: 18px;
-    padding-left: 74px;
+    padding-left: 25px;
     padding-top: 20px;
 }
-.getstarted .option2 .overlay p{
+.getstarted .option2 p{
     text-align:start;
 }
 
-.getstarted .option2 .overlay button{
+.getstarted .option2 button{
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 10px;
-    margin-left: 50px;
+    margin-left: 140px;
     border: 0;
     cursor:pointer;
 }
-
-
-.getstarted .option3 .overlay {
-    position: absolute;
-    margin-top: -135px;
-    left: 84%;
-    transform: translate(-50%, -50%);
-    color: white; /* Adjust text color as needed */
-    
-   
+.getstarted .option3
+{
+    color: #fff;
+    background-color: aquamarine;
+    max-width: 30%;
+    margin-left: 30px;
+    border-radius: 18px;
+    background-image: url("E:/BiomeShare/assets/background_4.jpg");
 }
-
-.getstarted .option3 .overlay h1{
+.getstarted .option3 h1{
     font-weight: 500;
     font-size: 18px;
-    padding-left: 50px;
+    padding-left: 25px;
     padding-top: 20px;
 }
-
-.getstarted .option3 .overlay p{
-    margin-left: 0px;
+.getstarted .option3 p{
+    text-align:start;
 }
-.getstarted .option3 .overlay button{
+
+.getstarted .option3 button{
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 10px;
-    margin-left: 50px;
+    margin-left: 140px;
     margin-bottom: 18px;
     border: 0;
     cursor:pointer;
 
 }
-#background-4 {
-    max-width: 100%;
-}
 .questions{
     background-color: aliceblue;
     color: black;
-    padding-right: 93px;
-    background: transparent;
+    padding-right: 186px;
 }
 .questions h1{
     padding-top: 150px;
@@ -280,7 +234,6 @@ nav li a{
     margin-left: 170px;
     border-top-left-radius: 120px;
     border-bottom-right-radius: 120px;
-    box-shadow: 0px 0px 20px gray;
 }
 
 
@@ -310,22 +263,22 @@ nav li a{
     font-weight: 200;
 }
 
-#background-1 {
+#background_1 {
     max-width: 100%;
 }
 footer {
-    background-color: #000000;
+    background-color: #333;
     color: #fff;
+    padding: 20px 0;
     text-align: left;
-    margin-left:0%;
-    position: absolute; /* Position the footer */
-    width: 99%;
 }
 
-
+footer p {
+    margin: 0;
+   
+}
 footer .top{
     display: flex;
-    margin-top: 20px;
     margin-left: 70px;
     margin-bottom: 30px;
 }
@@ -349,11 +302,8 @@ footer .right-top input[type="email"]{
     
     padding: 7px;
     color: white;
-    background-color: black;
-    border: 0.01;
-    border-color: white;
+    background-color: #333;
 }
-
 footer .right-top button{
     border:0;
     border-radius: 30px;
@@ -361,13 +311,7 @@ footer .right-top button{
     text-align: center;
     width:140px;
     color: white;
-    background-color: black;
-    box-shadow: 0 0px 13px gray;
+    background-color: #616161;
     margin-left: 20px;
     cursor: pointer;
 }
-footer .container p{
-    margin-top: 3%;
-    margin-left: 50px;
-}
-/* Styles for the glide-in effect */

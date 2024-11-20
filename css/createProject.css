@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+#background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    animation: fadeIn 0.5s ease-in-out forwards; 
+    color: #fff;
+    background-color:black;
+    
+}
+#background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+}
+.logo {
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;   
+
+}
+.logo img{
+    max-width: 150px;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+.logo h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 380px;
+    
+
+}
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(153, 153, 153, 0.2);
+    animation: glideIn 1s ease forwards;
+    margin-left: 850px;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+@keyframes glideIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    border: 0;
+    margin-left: 40px;
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+select {
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding:10px 12px;
+    border: 0;
+    box-sizing: border-box; /* Include padding and border in the width */
+    color: white;
+    background:transparent;
+    border-bottom: 1px solid white;
+}
+input[type="tel"],
+elect {
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding:10px 12px;
+    border: 0;
+    box-sizing: border-box; /* Include padding and border in the width */
+    color: white;
+    background:transparent;
+    border-bottom: 1px solid white;
+}
+
+select {
+    width: calc(25% - 5px); /* Adjust the width of the select dropdown */
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 35px;
+    margin-left: 140px;
+    margin-bottom: 30PX;
+}
+
+button:hover {
+    background-color: #57616b;
+}
+
