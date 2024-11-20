@@ -1,2 +1,3 @@
 # biomeshare
-A d-app that enables micro-investments in sustainable projects
+
+Biomeshare is a decentralized application (DApp) revolutionizing sustainable investing by offering micro-investment opportunities in environmentally impactful projects. Users have the power to create their own sustainable initiatives, seamlessly integrating GIS and Satellite Images for validation, alongside assigning a tangible project value and determining the number of tokens available. Leveraging Chainlink's CCIP (Cross-Chain Interoperability Protocol), Biomeshare provides users with real-time data sourced directly from the project's location. With Biomeshare, investing in a greener future has never been more accessible or transparent.
