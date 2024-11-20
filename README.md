@@ -28,10 +28,6 @@ To get started with Biomeshare:
 2. **Create an account**: Sign up to start creating or investing in sustainable projects.
 3. **Explore projects**: Browse through various initiatives and choose where to invest your tokens.
 
-## Contributing
-
-We welcome contributions from the community! If you're interested in helping us improve Biomeshare, please check out our [Contributing Guidelines](CONTRIBUTING.md).
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
